@@ -36,7 +36,8 @@ body{
 
 .menu-cambioColor {
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
-    background:  #FFCA03!important;
+    /* background-color: #FF5403 !important; */
+    background-color: rgba(255, 193, 7, 1);
  }
 
  .titulo-nav{
@@ -54,7 +55,8 @@ body{
 div.footerContainer {
     display: flex;
     justify-content:space-evenly;
-    background-color: #FF5403;
+    
+    background:  rgb(113,0, 165);
   }
 
 
@@ -244,19 +246,19 @@ div.footerContainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #FFCA03;
+    border: 2px solid #7100a5;
     background: #FFFFFF;
-    color: #FFCA03;
+    color: #7100a5;
     transition: .5s;
   }
 
   .service-item:hover i {
-    background: #FFF323;
+    background: #7100a5;
     color: #FFFFFF;
   }
 
   .title{
-    color:#FF5403 ;
+    color:#7100a5 ;
   }
 
 /*  */
@@ -770,7 +772,7 @@ a:hover {
 
   .tituloheader{
     font-size: 8vh !important;
-    color: #FF5403;
+    color: #7100a5;
   }
 
   .subtituloheader{
@@ -794,13 +796,13 @@ a:hover {
 
 
  input:focus, input[type]:focus {
-    border-color: #FF5403;
+    border-color: #7100a5;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
     outline: 0 none;
 }
 
 .btn-search{
-    background-color: #FF5403;
+    background-color: #7100a5;
     color: white;
 }
 
@@ -809,7 +811,7 @@ a:hover {
 }
 
 .btn-search:hover{
-    background-color: #FFCA03 !important;
+    background-color: #7100a5!important;
     color:rgba(85, 85, 85, 0.644) !important ;
 
 }
