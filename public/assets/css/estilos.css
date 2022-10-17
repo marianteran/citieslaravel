@@ -36,6 +36,10 @@ body{
     font-size: 18px;
 }
 
+.nav-link:hover {
+  color: #7100a5 !important;
+ 
+}
 .menu-cambioColor {
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
     /* background-color: #FF5403 !important; */
@@ -57,8 +61,8 @@ body{
 div.footerContainer {
     display: flex;
     justify-content:space-evenly;
-    
     background:  rgb(113,0, 165);
+    padding: 20px 0px;
   }
 
 
@@ -94,7 +98,9 @@ div.footerContainer {
     font-size: medium;
   }
 
-
+  footer a:hover{
+    color: #ff9700;
+  }
 
 
   div.bilboPhrase{
@@ -673,7 +679,7 @@ div .hiden{
 
  .slogan{
     margin-top: 15vh;
-    margin-bottom: 10vh;
+   /*  margin-bottom: 5vh; */
     
     
  }
@@ -684,7 +690,103 @@ div .hiden{
     font-size: 2vmax;
     font-weight: 900;
     font-style: italic;
+    padding: 0px 15px;
+    text-align: center;
  }
+ 
+ 
+ /* /* detail section */
+.detail_section {
+    margin-bottom: 15vh;
+  } 
+  
+  .detail_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5%;
+  }
+  
+  .detail-box {
+    min-width: 160px;
+    min-height: 160px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    border: 0.5px solid rgb(113,0, 165);
+    background: #cedce7;
+    background-image: linear-gradient(350deg, #fef65d 0, #ffe847 16.67%, #ffd92e 33.33%, #ffc902 50%, #ffb800 66.67%, #ffa800 83.33%, #ff9700 100%);
+
+  }
+  
+  .detail-box::before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: auto;
+    left: auto;
+    background-color: #d5bae57c;
+    z-index: -1;
+    border-radius: 100%;
+    transition: transform 1s;
+    transform: rotate();
+  }
+  
+  .detail-box.d-box-1::before,
+  .detail-box.d-box-3::before {
+    clip: rect(110px, 220px, 220px, 0);
+  }
+  
+  .detail-box:hover {
+    cursor: pointer;
+  }
+  
+  .detail-box:hover::before {
+    transform: rotate(360deg);
+  }
+  
+  .detail-box.d-box-2::before,
+  .detail-box.d-box-4::before {
+    clip: rect(0, 220px, 110px, 0);
+  }
+  
+  .detail-box h5 {
+    font-size: 16px;
+    color: #fefefe;
+    margin-top: 7px;
+  }
+  
+  .detail-box h6 {
+    font-size: 14px;
+    color: #fefefe;
+    margin-top: 4px;
+  }
+  
+  .detail-box .detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detail-box .detail-content img {
+    height: 50px;
+  }
+  
+
+
+
+
+  /* end detail section */
+
+
+
+
+
+
 
  #ctn-band-img{
     margin-top: 5vh;
@@ -709,8 +811,18 @@ div .hiden{
 .box-info-image2{
     width: 50%;
     
-   
+}
 
+@media (max-width:768px) {
+    .bandera-image{
+       flex-direction: column;
+    
+    }
+
+    .clearfix, .box-info-image2{
+        width: 100%;
+        
+    }
 
 }
 
@@ -722,66 +834,3 @@ div .hiden{
 
 }
 
-
-#inf-city{
-    margin-top: 15vh;
-    margin-bottom: 10vh;
-}
-
-.information-box-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-
-  .information-box {
-    width: 260px;
-    border-radius: 20px;
-    padding: 15px 10px 15px 20px;
-    box-shadow: 0 5px 15px rgba(25, 135, 84, 0.5);
-    margin: 10px;
-    background-color: white;
-  }
-
-  .information-box:hover {
-    transform: translateY(-15px);
-  }
-
-  .blue {
-    border-top: 7px solid blue;
-    border-bottom: 7px solid blue;
-  }
-
-  .orange {
-    border-top: 7px solid orange;
-    border-bottom: 7px solid orange;
-  }
-
-  .red {
-    border-top: 7px solid red;
-    border-bottom: 7px solid red;
-  }
-  .yellow {
-    border-top: 7px solid cyan;
-    border-bottom: 7px solid cyan;
-  }
-
-  .information-box h4 {
-    color: rgb(70, 91, 105);
-    font-weight: bold;
-  }
-
-  .information-box p {
-    font-size: 18px;
-    text-indent: 20px;
-    color: rgb(79, 102, 117);
-    font-weight: 600;
-  }
-
-  .information-box-image {
-    padding: 0;
-    text-align: right;
-  }

@@ -15,8 +15,8 @@
 
             <div class="">
                 <nav class>
-                    <a href="/" >Home</a>
-                    <a href="" >Cities</a>
+                    <a href="{{url('/')}}" >Home</a>
+                    <a href="{{url('destinations')}}" >Cities</a>
                 </nav>
             </div>
 
