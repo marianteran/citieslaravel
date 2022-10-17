@@ -31,74 +31,77 @@
 
     <!-- ========== end banner ========== -->
 
-    <div class="container mx-auto mt-5">
-        <div class="information-box-container">
-            <div class="information-box blue">
-                <h4>Country</h4>
-                <p>{{$data->country}}</p>
-                <div class="information-box-image">
-                    <img src="./assets/images/icon/{{$data->icon}}" alt=""></img>
-                </div>
-            </div>
-            <div class="information-box orange ">
-                <h4>Continent</h4>
-                <p>{{$data->continent}}</p>
-                <div class="information-box-image ">
-                    <img src="./assets/images/mundo.png" alt=""></img>
-                </div>
-            </div>
-            <div class="information-box yellow">
-                <h4>Language</h4>
-                <p>{{$data->language}}</p>
-                <div class="information-box-image ">
-                    <img src="./assets/images/idiomas.png" alt=""></img>
-                </div>
-            </div>
-            <div class="information-box red">
-                <h4>Currency</h4>
-                <p>{{$data->currency}}</p>
-                <div class="information-box-image">
-                    <img src="./assets/images/dolar.png" alt=""></img>
-                </div>
-            </div>
-        </div>
+    <div class="text-center slogan">
+
+        <p >{{$data->slogan}}</p>
+
     </div>
 
 
-
-
-
-    <div class="container bg-primary d-flex justify-content-center ">
-
-        <div class="bg-dark text-center">
-            <div class="box-info-city ">
-
-                <div class="contenedor-bandera">
-
-                    <div>
-                        <img style="" src="./assets/images/bandera/{{$data->flag}}" />
+    <section id="inf-city">
+        <div class="container mx-auto mt-5">
+            <div class="information-box-container">
+                <div class="information-box blue">
+                    <h4>Country</h4>
+                    <p>{{$data->country}}</p>
+                    <div class="information-box-image">
+                        <img src="./assets/images/icon/{{$data->icon}}" alt="" />
                     </div>
-
-                    <p style="">{{$data->description}}</p>
-
                 </div>
-
-
-
-                <div class="box-info-image2">
-                    {{-- <img src="./assets/images/city/{{$data->imagesec}}" alt=""> --}}
+                <div class="information-box orange ">
+                    <h4>Continent</h4>
+                    <p>{{$data->continent}}</p>
+                    <div class="information-box-image ">
+                        <img src="./assets/images/mundo.png" alt="" />
+                    </div>
                 </div>
-
+                <div class="information-box yellow">
+                    <h4>Language</h4>
+                    <p>{{$data->language}}</p>
+                    <div class="information-box-image ">
+                        <img src="./assets/images/idiomas.png" alt="" />
+                    </div>
+                </div>
+                <div class="information-box red">
+                    <h4>Currency</h4>
+                    <p>{{$data->currency}}</p>
+                    <div class="information-box-image">
+                        <img src="./assets/images/dolar.png" alt="" />
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="ctn-band-img">
+
+        <div class=" container d-flex justify-content-center align-items-center flex-wrap  ">
+
+            <div class="clearfix">
+                <img src="./assets/images/bandera/{{$data->flag}}" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+
+                <p>
+                    {{$data->description}}
+                </p>
+
+
+                
+            </div>
+
+            <div class="box-info-image2">
+                <img src="./assets/images/city/{{$data->imagesec}}" alt="">
+            </div>
+
         </div>
 
 
+    </section>
 
 
-    </div>
-
-
-
+    
 
     <!-- ========== End Body ========== -->
 

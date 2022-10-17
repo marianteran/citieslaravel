@@ -1,31 +1,34 @@
- <!-- About Start -->
- <div class="container-fluid py-5">
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-lg-6" style="min-height: 500px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="col-lg-6 pt-5 pb-lg-5">
-                <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                    <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                    <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore
-                        sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et
-                        erat sed diam duo</p>
-                    <div class="row mb-4">
-                        <div class="col-6">
-                            <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid" src="img/about-2.jpg" alt="">
-                        </div>
-                    </div>
-                    <a href="" class="btn btn-primary mt-1">Book Now</a>
-                </div>
-            </div>
+<!-- About Start -->
+
+<div class="container about ">
+    <div class="row mx-auto d-flex  flex-wrap-reverse">
+
+        <div class="col-xs-12 col-sm-12 col-md-5  col-lg-5  about-image">
+            <img src="./assets/images/home/flag.gif" alt="" class="" width=350 />
         </div>
+
+
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7  about-parraf">
+            <h1>Enjoy your trip</h1>
+            <p>
+                If your dream has always been to travel the world, you have come
+                to the right place.
+            </p>
+            <p>
+                It does not matter if you are a woman or a man, you are 15 or 90
+                years old, you study or work, you travel alone or with your
+                family, here you will find everything you need to know to make
+                your dream come true, from a family vacation to a trip without a
+                return date.
+            </p>
+            <p>
+                Traveling is not an activity that is limited to the rich, it is
+                something that we can all do if we really want to.
+            </p>
+            <span>Welcome to my MyTinerary </span>
+        </div>
+
+       
     </div>
 </div>
 <!-- About End -->

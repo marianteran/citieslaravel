@@ -19,8 +19,8 @@
     <!-- ========== Start banner ========== -->
 
 
-    <div class="banner-cities w-100 vh-100 d-flex justify-content-center align-items-center">
-        <div class=" header-cities ">
+    <div class="banner-cities pt-5">
+        <div class=" header-cities d-flex flex-wrap justify-content-center align-items-center">
             <div class="header-cities-text  ">
                 <h1 class="tituloheader">GET MORE INFORMATION</h1>
                 <h4 class="subtituloheader">
@@ -28,12 +28,10 @@
                 </h4>
             </div>
             <div class="header-cities">
-                <img src="./assets/images/home/flag.gif    " class="d-block w-100 imgheader3 " alt="..." />
+                <img src="./assets/images/pngwing.png" class="d-block w-100 imgheader3 " alt="..." />
             </div>
         </div>
     </div>
-
-
 
 
     <!-- ========== end banner ========== -->
@@ -70,7 +68,7 @@
 
 
 
-    <section>
+    <section id="ctn-cities">
 
         <div class="wrapper">
 
