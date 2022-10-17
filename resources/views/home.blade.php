@@ -18,7 +18,7 @@
 
     <div class="banner">
 
-        <video src="./assets/video/banner.mp4" type='video/mp4' autoplay muted loop></video>
+        <video src="./assets/video/playa2.mp4" type='video/mp4' autoplay muted loop></video>
         {{-- <video src="video/link2.mp4" type='video/mp4' autoplay muted loop></video> --}}
     </div>
 

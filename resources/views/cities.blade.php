@@ -28,7 +28,7 @@
                 </h4>
             </div>
             <div class="header-cities">
-                <img src="./assets/images/plane.png    " class="d-block w-100 imgheader3 " alt="..." />
+                <img src="./assets/images/home/flag.gif    " class="d-block w-100 imgheader3 " alt="..." />
             </div>
         </div>
     </div>
