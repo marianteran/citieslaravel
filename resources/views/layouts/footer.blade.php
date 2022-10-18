@@ -44,10 +44,10 @@
 
         </div>
 
+    </div>
 
-
-
-
+    <div class=" copyright">
+        <span  >Copyright &copy; Marianela Terán | 2022 | <a href="https://github.com/marianteran/citieslaravel"><i class="fa-brands fa-github"></i></a> </span>
     </div>
 
 </footer>
