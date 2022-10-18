@@ -11,12 +11,12 @@
 <img src="https://github.com/marianteran/citieslaravel/blob/master/public/readme/detalle2.png?raw=true" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
 </p>
 
-## Acerca de 
+## Herramientas utilizadas
 
-App realizada utilizando framework Laravel, consumo de DB con conexión a Mysql, estilos con Bootstrap y css. Librerias como Jquery, animate css, font awesome, animate css.
+App realizada utilizando framework Laravel, consumo de DB con conexión a Mysql, estilos con Bootstrap y css. Librerias como Jquery, font awesome, animate css.
 
 
 
-## Learning Laravel
+## Acerca de la app
 
 Aplicación  web de itinerarios de viajes, la cual consta de la sección principal inicio, destinos donde se muestran las diferentes ciudades, y más información individual de cada una, la sección de reseñas con comentarios de los usuarios.
