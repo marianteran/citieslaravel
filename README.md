@@ -1,10 +1,10 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p>
-<img src="./readme/home.png" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
-<img src="./readme/city.png" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
-<img src="./readme/detalle.png" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
-<img src="./readme/detalle2.png" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
+<img src="https://github.com/marianteran/citieslaravel/blob/master/public/readme/home.png?raw=true" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
+<img src="https://github.com/marianteran/citieslaravel/blob/master/public/readme/city.png?raw=true" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
+<img src="https://github.com/marianteran/citieslaravel/blob/master/public/readme/detalle.png?raw=true" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
+<img src="https://github.com/marianteran/citieslaravel/blob/master/public/readme/detalle2.png?raw=true" width="250px" height="250px" hspace="5" vspace="20" alt="homeSite"/>
 </p>
 
 ## Acerca de 
