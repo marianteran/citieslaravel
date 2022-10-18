@@ -16,7 +16,8 @@
             <div class="">
                 <nav class>
                     <a href="{{url('/')}}" >Home</a>
-                    <a href="{{url('destinations')}}" >Cities</a>
+                    <a href="{{url('/destinations')}}" >Cities</a>
+                    <a href="{{url('/reviews')}}" >Reviews</a>
                 </nav>
             </div>
 

@@ -31,7 +31,10 @@
 									<a class="nav-link " href="{{url('/')}}">Home</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link " href="{{url('destinations')}}">Destinations</a>
+									<a class="nav-link " href="{{url('/destinations')}}">Destinations</a>
+								</li>
+                                <li class="nav-item">
+									<a class="nav-link " href="{{url('/reviews')}}">Reviews</a>
 								</li>
 							</ul>
 

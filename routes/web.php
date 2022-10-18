@@ -18,11 +18,21 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 }); */
 
-Route::get('/', [CityController::class,'index']);
+/* vista inicial home */
+Route::get('/', CityController::class);
 
-Route::get('destinations', [CityController::class,'destinations']);
 
+/* vista destinos  */
+Route::get('/destinations', [CityController::class,'destinations']);
+
+
+/* vista detalles al selecionar una ciudad */
 Route::get('/details/{id}', [CityController::class,'details']);
 
 
+/* vista de comentarios */
+Route::get('/reviews', [CityController::class,'reviews']);
+
+
+/* función para realizar busquedas  */
 route::get('/search',[CityController::class,'search']);
