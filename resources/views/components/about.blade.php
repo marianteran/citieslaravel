@@ -4,7 +4,7 @@
     <div class="row mx-auto d-flex  flex-wrap-reverse">
 
         <div class="col-xs-12 col-sm-12 col-md-5  col-lg-5  about-image">
-            <img src="./assets/images/home/flag.gif" alt="" class="" width=350 />
+            <img src="./assets/images/home/bgdiv.png" alt="" class="" width=350 />
         </div>
 
 
@@ -28,7 +28,7 @@
             <span>Welcome to my MyTinerary </span>
         </div>
 
-       
+
     </div>
 </div>
 <!-- About End -->

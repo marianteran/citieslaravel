@@ -37,7 +37,7 @@ body{
 
 .nav-link:hover {
   color: #7100a5 !important;
- 
+
 }
 .menu-cambioColor {
     box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
@@ -59,9 +59,10 @@ body{
 /* *************************+  Start footer +*************************************************** */
 div.footerContainer {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    flex-wrap: wrap;
     background:  rgb(113,0, 165);
-    padding: 20px 0px;
+    padding: 50px 0px;
   }
 
 
@@ -81,24 +82,28 @@ div.footerContainer {
 
 }
 
-  footer nav {
-    padding-right: 2rem;
+  .footer-route a {
+
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-
-  }
-
-  footer a {
+    text-align: left !important;
     text-decoration: none;
-    padding-top: 0.5rem;
-    color: white;
-    font-size: medium;
+    color: #FFFFFF;
+
   }
 
-  footer a:hover{
-    color: #ff9700;
+  .titulo-foot{
+    color: #FFFFFF;
+    font-family: "Italianno",cursive !important;
+    font-size: 25px;
+    letter-spacing: 2pt
+  }
+
+
+  .footer-route a:hover, .linkf:hover{
+    color: #ff9700 !important;
   }
 
 
@@ -125,13 +130,16 @@ div.footerContainer {
 
 /* *************************+ START HOME +*************************************************** */
 
-.banner {
+.banner-home {
     position: relative;
     width: 100%;
     height: 100vh;
+    background: rgb(255,204,34);
+    background: linear-gradient(0deg, rgba(255,204,34,0.0005135843399859397) 25%, rgba(255,200,34,0.8660598028273809) 100%);
+
 }
 
-.banner video {
+.banner-home video {
     position: absolute;
     top: 0;
     left: 0;
@@ -140,10 +148,27 @@ div.footerContainer {
     object-fit: cover;
 }
 
-.banner video:nth-child(2) {
-    mix-blend-mode: screen;
-    filter: brightness(2);
+.banner-home h1 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 20vmin;
+    text-shadow: 1px 1px 2px #000;
+    font-family: "Italianno",cursive !important;
+
 }
+
+@media screen and (max-width:600px) {
+    .banner-home {
+        height: 50vh;
+    }
+
+}
+
+
 
 /*  */
 
@@ -308,6 +333,20 @@ div.footerContainer {
     align-items: center;
   }
 
+  @media screen and (max-width:600px) {
+
+    .about-parraf {
+        font-size: 14px;
+        text-indent: 1%;
+      }
+
+    .about-image img {
+        width: 250px !important;
+    }
+
+}
+
+
 
 /* galeria */
 
@@ -395,7 +434,7 @@ div .hiden{
     .header-cities-text{
         text-align: center;
     }
-    
+
 }
 
   .tituloheader{
@@ -499,7 +538,7 @@ div .hiden{
     font-size: 1.2rem;
 
 
-    
+
 }
 
 .front:after {
@@ -679,8 +718,8 @@ div .hiden{
  .slogan{
     margin-top: 15vh;
    /*  margin-bottom: 5vh; */
-    
-    
+
+
  }
 
  .slogan p{
@@ -692,13 +731,13 @@ div .hiden{
     padding: 0px 15px;
     text-align: center;
  }
- 
- 
+
+
  /* /* detail section */
 .detail_section {
     margin-bottom: 15vh;
-  } 
-  
+  }
+
   .detail_container {
     display: flex;
     justify-content: center;
@@ -706,7 +745,7 @@ div .hiden{
     flex-wrap: wrap;
     padding-top: 5%;
   }
-  
+
   .detail-box {
     min-width: 160px;
     min-height: 160px;
@@ -720,7 +759,7 @@ div .hiden{
     background-image: linear-gradient(350deg, #fef65d 0, #ffe847 16.67%, #ffd92e 33.33%, #ffc902 50%, #ffb800 66.67%, #ffa800 83.33%, #ff9700 100%);
 
   }
-  
+
   .detail-box::before {
     content: "";
     position: absolute;
@@ -734,47 +773,47 @@ div .hiden{
     transition: transform 1s;
     transform: rotate();
   }
-  
+
   .detail-box.d-box-1::before,
   .detail-box.d-box-3::before {
     clip: rect(110px, 220px, 220px, 0);
   }
-  
+
   .detail-box:hover {
     cursor: pointer;
   }
-  
+
   .detail-box:hover::before {
     transform: rotate(360deg);
   }
-  
+
   .detail-box.d-box-2::before,
   .detail-box.d-box-4::before {
     clip: rect(0, 220px, 110px, 0);
   }
-  
+
   .detail-box h5 {
     font-size: 16px;
     color: #fefefe;
     margin-top: 7px;
   }
-  
+
   .detail-box h6 {
     font-size: 14px;
     color: #fefefe;
     margin-top: 4px;
   }
-  
+
   .detail-box .detail-content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .detail-box .detail-content img {
     height: 50px;
   }
-  
+
 
 
 
@@ -809,18 +848,18 @@ div .hiden{
 
 .box-info-image2{
     width: 50%;
-    
+
 }
 
 @media (max-width:768px) {
     .bandera-image{
        flex-direction: column;
-    
+
     }
 
     .clearfix, .box-info-image2{
         width: 100%;
-        
+
     }
 
 }
@@ -835,32 +874,47 @@ div .hiden{
 
 /* *************************==============REVIEWS===================***************************** */
 
-/* #ctn-reviews{
-  background-image: url('../images/home/avila.jpg');
-background-attachment: fixed; 
+#ctn-reviews{
+  background-image: url('../images/bg2.jpg');
+background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: center;
 width: 100%;
-
+min-height: 100vh;
 background-size: cover;
+padding-bottom: 25vh;
+
+}
 
 
 
-} */
 
+.tituloheader-reviews{
+    font-size: 10vh !important;
+    color: #7100a5;
+    text-shadow: 1px 1px 2px #FFFFFF ;
+  }
+
+  .subtituloheader-review{
+
+    color: white;
+    margin-top: 2vh;
+    font-size: 3vh !important;
+    text-shadow: 1px 1px 2px #000 ;
+  }
 
 .contenedor_comentario{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  
+
+
 }
 
 .card-cont_comentario{
   font-family: 'Baloo 2', cursive;
   width: 300px;
-  height: 350px;
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
@@ -887,7 +941,6 @@ background-size: cover;
   position: absolute;
   background: #fff;
   padding: 2px;
-  border-radius: 50%;
   bottom: -90px;
   left: 50%;
   transform: translate(-50%);
@@ -896,15 +949,18 @@ background-size: cover;
 .card-cont_comentario .head_comentario .img_comentario img{
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
 }
 
 
  .description_comentario{
-  height: 180px;
   padding: 90px 20px 20px 20px;
-  text-align: center;
+  text-align: justify;
+}
+
+.comentario{
+height: 50px;
 }
 
 .description_comentario h3{

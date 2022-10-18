@@ -16,10 +16,11 @@
 
     <!-- ========== Start banner ========== -->
 
-    <div class="banner">
+    <div class="banner-home">
 
-        <video src="./assets/video/playa2.mp4" type='video/mp4' autoplay muted loop></video>
+        <video src="./assets/video/bannerhome.mp4" type='video/mp4' autoplay muted loop></video>
         {{-- <video src="video/link2.mp4" type='video/mp4' autoplay muted loop></video> --}}
+        <h1>MYtinerary</h1>
     </div>
 
 
@@ -99,7 +100,7 @@
 
 
     <script>
-   
+
     </script>
     <!-- ========== End script ========== -->
 
