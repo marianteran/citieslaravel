@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layouts.plantilla')
 
-<head>
-    @include('plantilla.head')
-</head>
-
-<body>
-    <header>
-        @include('plantilla.nav')
-    </header>
-
-
-
-    <!-- ========== Start Body ========== -->
-
-    <!-- ========== Start banner ========== -->
-
+@section('main')
     <div class="banner-home">
 
         <video src="./assets/video/bannerhome.mp4" type='video/mp4' autoplay muted loop></video>
@@ -23,8 +8,6 @@
         <h1>MYtinerary</h1>
     </div>
 
-
-    <!-- ========== end banner ========== -->
 
     <!-- ========== Start About ========== -->
     @include('components.about')
@@ -73,37 +56,10 @@
 
 
 
-
-
-
-
     @include('components.tours-travel')
 
 
     @include('components.galeria')
 
 
-
-    <!-- ========== End Body ========== -->
-
-
-
-    <!-- ========== Start Footer ========== -->
-    @include('plantilla.footer')
-    <!-- ========== End Footer ========== -->
-
-
-
-    <!-- ========== Start script ========== -->
-
-    @include('plantilla.script')
-
-
-    <script>
-
-    </script>
-    <!-- ========== End script ========== -->
-
-</body>
-
-</html>
+@endsection

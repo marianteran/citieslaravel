@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layouts.plantilla')
+<base href="/public">
 
-<head>
-    <base href="/public">
-    @include('plantilla.head')
-    <!-- estilos.css -->
-</head>
-
-<body>
-    <header>
-        @include('plantilla.nav')
-    </header>
-
-
-
-    <!-- ========== Start Body ========== -->
-
-    <!-- ========== Start banner ========== -->
-
-
-
-
-
-    <!-- ========== end banner ========== -->
+@section('main')
 
 
     <!-- ========== Start Body ========== -->
@@ -105,22 +84,4 @@
 
     </div>
 
-
-    <!-- ========== End Body ========== -->
-
-
-
-    <!-- ========== Start Footer ========== -->
-    @include('plantilla.footer')
-    <!-- ========== End Footer ========== -->
-
-
-
-    <!-- ========== Start script ========== -->
-
-    @include('plantilla.script')
-    <!-- ========== End script ========== -->
-
-</body>
-
-</html>
+    @endsection
