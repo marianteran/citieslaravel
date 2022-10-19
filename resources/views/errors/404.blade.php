@@ -2,5 +2,14 @@
 
 @section('main')
 
-<img src="./assets/images/404.png" alt="">
+<div id="ctn-404" >
+
+    <div class="text-center">
+        <img src="./assets/images/404.png" alt="">
+    </div>
+
+    
+</div>
+
+
 @endsection
