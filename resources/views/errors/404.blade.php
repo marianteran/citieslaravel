@@ -2,5 +2,5 @@
 
 @section('main')
 
-<h1> no hay nada</h1>
+<img src="./assets/images/404.png" alt="">
 @endsection
